@@ -1,4 +1,4 @@
-# Movie-Recommendations
+# Final Project for Course 3 - OMDB and TasteDive Mashup ::Movie-Recommendations
 
 This project will take you through the process of mashing up data from two different APIs to make movie recommendations. 
 #### The TasteDive API
