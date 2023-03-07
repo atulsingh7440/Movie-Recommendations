@@ -21,7 +21,7 @@ def get_movies_from_tastedive(movie_or_music_artist_name):
     return this_page_cache.json() # retun a dictionary
 
 
-def extract_movie_titles(Dict):
+def extract_movie_titles(Dict): 
     print(Dict) # dictonary
     #print(Dict['Similar']) #dictionary
     #print(Dict['Similar'].keys()) # two keys : info and result
@@ -30,7 +30,7 @@ def extract_movie_titles(Dict):
     list_of_movie_title = []
     for d in Dict['Similar']['Results']:
         list_of_movie_title.append(d['Name'])
-    return list_of_movie_title
+    return list_of_movie_title #this list contain the name of movie(only,type = movie )
         
     
   
